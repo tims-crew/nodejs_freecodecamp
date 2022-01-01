@@ -3,8 +3,14 @@
     "start": "node myApp.js"
   },
   "dependencies": {
-    "dotenv": "^10.0.0",
+    "express": "^4.12.4",
+    "body-parser": "^1.15.2",
     "mongodb": "^4.2.2",
     "mongoose": "^6.1.4"
-  }
+  },
+  "keywords": [
+    "node",
+    "hyperdev",
+    "express"
+  ]
 }
