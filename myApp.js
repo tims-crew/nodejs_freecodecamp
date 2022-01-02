@@ -8,4 +8,4 @@ const personSchema = new Schema({
 });
 
 const Person = mongoose.model('Person', personSchema);
-console.log(Person);
+const tom = new  Person("Thomphson", 14, ["burgers", "pizza"]);
